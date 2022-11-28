@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const apiUrl = 'https://pokeapi.co/api/v2/pokemon/'
 
-const pokemonApi = axios.create({
+export const pokemonApi = axios.create({
     baseURL: apiUrl,
 })
 

@@ -1,0 +1,3 @@
+xdescribe('PokemonPicture', () => {
+    test('', () => { })
+})
