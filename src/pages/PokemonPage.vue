@@ -7,7 +7,7 @@
         <PokemonOptions :pokemon-options="pokemons" @select-pokemon="checkAnswer" />
 
         <div class="fade-in" v-show="showPokemon">
-            <h2>!Es {{ capitalizedName(pokemon.name) }}!</h2>
+            <h2 data-testid="pokemon-name">!Es {{ capitalizedName(pokemon.name) }}!</h2>
             <button @click="resetGame">Jugar de nuevo</button>
         </div>
 

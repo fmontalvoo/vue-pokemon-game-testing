@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage Debe hacer match con el snapshot al cargar la informacion 1`] = `
+<div>
+  <h2>¿Quién es este pokémon?</h2>
+  <div class="pokemon-container"><img class="hidden-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg" alt="Pokemon"></div>
+  <div class="options-container">
+    <ul>
+      <li>Bulbasaur</li>
+      <li>Charmander</li>
+      <li>Squirtle</li>
+      <li>Pikachu</li>
+    </ul>
+  </div>
+  <div class="fade-in" style="display: none;">
+    <h2 data-testid="pokemon-name">!Es Squirtle!</h2><button>Jugar de nuevo</button>
+  </div>
+</div>
+`;

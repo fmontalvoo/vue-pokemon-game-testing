@@ -19,11 +19,11 @@ describe('PokemonOptions', () => {
 
     test('El componente PokemonOptions debe crearse', () => {
         expect(wrapper).toBeTruthy()
-    });
+    })
 
     test('Debe hacer match con el snapshot', () => {
         expect(wrapper.html()).toMatchSnapshot()
-    });
+    })
 
     test('Debe mostrar los pokemons en los <li> de la UI', () => {
         const items = wrapper.findAll('li')
